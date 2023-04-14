@@ -117,11 +117,41 @@ Operations
 - Removing a pair
 - Modify an existing pair
 - Lookup of a value associated with a particular key
+```python
+sammy = {
+    'username': 'sammy',
+    'online': True,
+    'followers': 42
+}
 
+print('Sammy dict:', sammy)
+print('Username:', sammy['username'])
+print('Online Status:', sammy['online'])
+print('Follower Count:', sammy['followers'])
+```
 dictonary propertys
+
 keys
+
 - a unique location vale for dictonary
 - must be mutable
 - cant have 2 of the same keys
 - if key duplicated the newest key with overtake the old one
+
 values
+- a dictionary within a key can be any data type
+
+Deletion
+- delete a key hence deleting the value connected to the key
+- empty out the entire dictionary
+- delete the dictionary rarely used
+
+Membership
+- We can use the in and not in operators to check if a key exists in a dictionary
+
+Dictionary Methods
+- A.keys()
+- A.values()
+- A.items()
+- A.get(address)
+- A.update(B)
